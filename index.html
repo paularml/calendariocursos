@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendário de Estudos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="header">
             <h1>📚 Calendário de Estudos</h1>
             <p>Período 2025-2026: Organize seus estudos e acompanhe seu progresso</p>
-        </div>
-
-        <div class="controls">
+    </div>
+    <div class="controls">
             <div class="legend">
                 <span class="legend-title">Legenda:</span>
                 <span class="legend-item"><div class="legend-color uninter-bg"></div> UNINTER</span>
@@ -42,7 +45,7 @@
                 <button class="month-btn" data-month="fevereiro">Fevereiro</button>
             </nav>
         </div>
-
+    <div class="container">
         <div class="calendar-content">
             <div class="month-section" id="setembro">
                 <h2 class="month-title">Setembro 2025</h2>
@@ -132,7 +135,6 @@
             </div>
         </div>
     </div>
-
     <script src="script.js" defer></script>
 </body>
 </html>
